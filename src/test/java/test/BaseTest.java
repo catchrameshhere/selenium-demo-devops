@@ -13,8 +13,8 @@ public class BaseTest {
   @BeforeSuite
   public void beforeSuite() {
 	  //setup of browser
-	  String currDir = System.getProperty("user.dir");
-	  System.setProperty("webdriver.chrome.driver", currDir + "\\drivers\\chromedriver.exe");
+//	  String currDir = System.getProperty("user.dir");
+//	  System.setProperty("webdriver.chrome.driver", currDir + "\\drivers\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  
 	  driver.get(appUrl);
