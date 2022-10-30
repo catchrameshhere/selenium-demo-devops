@@ -10,6 +10,7 @@ public class BasicValidation extends BaseTest{
 	
 	@Test
 	public void titleValidation() {
+		
 		String expectedTitle = "Facebook – log in or sign up";
 		String actualTitle = driver.getTitle();
 		
